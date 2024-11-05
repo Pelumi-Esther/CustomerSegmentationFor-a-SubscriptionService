@@ -1,0 +1,49 @@
+Create Database CustomerAnalysis
+
+select * from CustomerSegmentation
+
+-------------total number of customers from each region--------
+select distinct Region, COUNT (CustomerID) AS NumOfCustomers
+From CustomerSegmentation
+Group by Region
+
+---------- most popular subscription type by the number of customers------
+select distinct SubscriptionType, COUNT (CustomerID) AS TotalCustomers
+from CustomerSegmentation
+Group by SubscriptionType
+Order by TotalCustomers Desc
+
+----------customers who canceled their subscription within 6 months------
+select CustomerID
+from CustomerSegmentation
+where SubscriptionDuration = '6'
+
+-----------average subscription duration for all customers--------
+select AVG (SubscriptionDuration)
+from CustomerSegmentation
+
+------------customers with subscriptions longer than 12 months-------
+select distinct Customerid, COUNT (SubscriptionDuration) AS Over12Months
+from CustomerSegmentation
+Where Canceled = 'False'
+Group by Customerid
+
+---------total revenue by subscription type-------
+select distinct SubscriptionType, SUM (Revenue) AS TotalRevenue
+from CustomerSegmentation
+Group by SubscriptionType
+
+-------top 3 regions by subscription cancellations-----
+select top 3 Region, COUNT (Canceled)
+from CustomerSegmentation
+where Canceled = 'TRUE'
+Group by Region
+
+----------total number of active and canceled subscriptions------
+Select COUNT (Canceled) AS Active
+from CustomerSegmentation
+where Canceled = 'FALSE'
+
+Select COUNT (Canceled) AS NotActive
+from CustomerSegmentation
+where Canceled = 'TRUE'
