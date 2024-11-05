@@ -26,18 +26,18 @@ The data analyzed was provided by The Incubator Hub [Download Here](https://docs
 
 | Column                  | Description                             | Data Type      |
 | :---------------------- | :-------------------------------------- | :------------- |
-| CustomerID              | Invoice of the sales made               | VARCHAR(30)    |
-| CustomerName            | Customer that made the sales            | VARCHAR(30)    |
-| Region                  | Region at which sales were made         | VARCHAR(5)     |
-| SubscriptionType        | Product sold                            | VARCHAR(100)   |
+| CustomerID              | Invoice of the purchase made            | VARCHAR(30)    |
+| CustomerName            | Customer that made the purchase         | VARCHAR(30)    |
+| Region                  | Region at which purchase was made       | VARCHAR(5)     |
+| SubscriptionType        | Subscription type sold                  | VARCHAR(100)   |
 | SubscriptionStart       | The date on which the purchase was made | DATE           |
 | SSMonth                 | The month which the purchase was made   | VARCHAR(10)    |
 | SSYear                  | The year which the purchase was made    | INT            |
-| SubscriptionEnd         | The date on which the purchase was made | DATE           |
-| SEMonth                 | The month which the purchase was made   | VARCHAR(10)    |
-| SEYear                  | The year which the purchase was made    | INT            |
-| SubscriptionDuration    | The amount of the product sold          | INT            |
-| Canceled                | Region at which sales were made         | VARCHAR(5)     |
+| SubscriptionEnd         | The date on which the subscription ended| DATE           |
+| SEMonth                 | The month which the subscription ended  | VARCHAR(10)    |
+| SEYear                  | The year which the subcription ended    | INT            |
+| SubscriptionDuration    | How long the subscription lasted        | INT            |
+| Canceled                | Active and non-active subcription       | VARCHAR(5)     |
 | Revenue                 | The amount paid by customer             | INT            |
 
 ### Tools Used 
@@ -94,7 +94,8 @@ The data was explored to provide answers to the following questions;
 
 ``` =COUNTIF(D2:D33788, "Premium") ```
 
-
 ### Data Analysis
+
+### Data Visualization
 
 ### Recommendation 
