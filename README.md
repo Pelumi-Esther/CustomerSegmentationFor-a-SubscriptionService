@@ -98,6 +98,8 @@ The data was explored to provide answers to the following questions;
 
 ``` Select * From CustomerSegmentation ```
 
+See more [Here](https://github.com/Pelumi-Esther/CustomerSegmentationFor-a-SubscriptionService/blob/main/SQL_Queries)
+
 ### Data Visualization
 
 ### Recommendation 
