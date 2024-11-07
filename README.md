@@ -106,5 +106,9 @@ See more [Here](https://github.com/Pelumi-Esther/CustomerSegmentationFor-a-Subsc
 
 ### insights
 
-- ** 16,921 ** customers subscribed to the Basic plan, ** 8,446 ** to the Premium plan and ** 8,420 ** to the Standard plan.
+- **16,921** customers subscribed to the Basic plan, **8,446** to the Premium plan and **8,420** to the Standard plan.
+- The Basic subscription type made the most revenue.
+- The Basic subscription type is peculiar to the East and North, the Premium subscription type to the South, and the Standard subscription type to the West.
+- **15,175** customers cancelled their subscription, while **18,612** customers have active subscription.
+- 
 ### Recommendation 
