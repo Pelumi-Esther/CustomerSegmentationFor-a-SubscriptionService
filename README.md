@@ -102,4 +102,7 @@ See more [Here](https://github.com/Pelumi-Esther/CustomerSegmentationFor-a-Subsc
 
 ### Data Visualization
 
+![Dashboard 1 (1)](https://github.com/user-attachments/assets/8f7caa56-69fe-47ad-bdf8-c092bef02664)
+
+
 ### Recommendation 
