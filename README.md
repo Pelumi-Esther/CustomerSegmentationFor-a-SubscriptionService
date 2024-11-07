@@ -104,7 +104,7 @@ See more [Here](https://github.com/Pelumi-Esther/CustomerSegmentationFor-a-Subsc
 
 ![Dashboard 1 (1)](https://github.com/user-attachments/assets/8f7caa56-69fe-47ad-bdf8-c092bef02664)
 
-### insights
+### Insights
 
 - **16,921** customers subscribed to the Basic plan, **8,446** to the Premium plan and **8,420** to the Standard plan.
 - The Basic subscription type made the most revenue.
