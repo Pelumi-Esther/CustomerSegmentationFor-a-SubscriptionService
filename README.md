@@ -96,6 +96,8 @@ The data was explored to provide answers to the following questions;
 
 ### Data Analysis
 
+``` Select * From CustomerSegmentation ```
+
 ### Data Visualization
 
 ### Recommendation 
