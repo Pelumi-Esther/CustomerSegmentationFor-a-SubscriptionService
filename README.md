@@ -110,5 +110,8 @@ See more [Here](https://github.com/Pelumi-Esther/CustomerSegmentationFor-a-Subsc
 - The Basic subscription type made the most revenue.
 - The Basic subscription type is peculiar to the East and North, the Premium subscription type to the South, and the Standard subscription type to the West.
 - **15,175** customers cancelled their subscription, while **18,612** customers have active subscription.
-- 
+
 ### Recommendation 
+
+- Collecting of customer feedback should be prioritized, especially customers that cancelled their subscription.
+- Improvements should be made based on the feedback collected from customers.
